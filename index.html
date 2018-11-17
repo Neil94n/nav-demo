@@ -12,7 +12,7 @@
 			
 		</div>
 	</main>
-	<footer></footer>
+	<footer></footer>   
 	<script>
 
 		// 1. 初始化数据
@@ -120,9 +120,9 @@
 	}	
 	function listenToUser(hash){
 		document.onkeypress = function(xzkjcnxlkcjlk){
-				var key = xzkjcnxlkcjlk['key'] // q w e
-				var website = hash[key]
-				//location.href = 'http://'+website
+				var key = xzkjcnxlkcjlk['key'] // q w e  拿到用户按得键
+				var website = hash[key]      //得到这个键的网站
+				//location.href = 'http://'+website   //把当前地址变成新的网站的地址
 				window.open('http://'+website, '_blank')
 			}
 		}
